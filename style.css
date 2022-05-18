@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Cormorant+Garamond:ital,wght@0,300;1,500&family=Creepster&family=Exo+2:wght@300&family=Lato:wght@300;400&family=M+PLUS+Rounded+1c:wght@300&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body{
+    background-image:url(/images/17010.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    color: #07D3F2;
+    /*text-shadow: 5px 5px 2px #680; */
+    text-shadow: 3px 4px 5px #75D959;
+    text-align: center;
+    
+}
+
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
+   
+}
+
+.images{
+    margin-top: 5px;
+}
+
+h1{
+    font-family: 'Creepster';
+    font-size: 150px;
+    margin: 40px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size:30px ;
+}
+
+.card{
+    background-color: #bfc4c5a6;
+    margin:15px ;
+   
+}
+.img{
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#search{
+    height: 42px;
+    width: 437px;
+    margin-bottom: 50px;
+    border-radius: 21px;
+    border: none;
+    box-shadow: 3px 4px 5px #75D959;
+}
+
+footer{
+    color: black;
+    font-size: 25px;
+}
